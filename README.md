@@ -1,3 +1,4 @@
+
 # Project Title: Jokes Market
 The "Joke Stocks Market" is an innovative, entertaining web application that brings together humor and trading in a very unique way. The application works as a platform for creating, sharing, and trading jokes as digital assets. Every joke posted on the platform gains value based on its popularity, which is determined by the number of likes it receives from other users. This popularity not only reflects the joke's entertainment value but also serves as a form of virtual currency within the app's trading system.
 
