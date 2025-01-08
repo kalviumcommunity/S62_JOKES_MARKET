@@ -12,4 +12,5 @@ const connectDatabase=()=>{
     })
     .catch((er)=>console.log('Database connection Failed...', er.message));
 };
+
 module.exports=connectDatabase;
