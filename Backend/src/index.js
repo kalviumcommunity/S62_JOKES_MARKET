@@ -7,15 +7,18 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
   const app = require("./server.js");
   const connectDatabase = require("./DataBase/database.js");
   const { connectDB, getDB } = require("./DataBase/db.js");
+  const userRouter = require('./Routes/user.route.js')
   
   const PORT = process.env.PORT;
   
   connectDB();
+
+  app.use('/users', userRouter);
   
   app.get("/", async (req, res) => {
     try {
       const db = getDB();
-      const users = await db.collection("Users").find().toArray();
+      const users = await db.collection("users").find().toArray();
       res.status(200).json(users);
     } catch (error) {
       console.log("Error fetching users", error);
