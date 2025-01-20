@@ -9,5 +9,6 @@ app.get('/ping', (req, res) => {
   res.send('pong');
 });
 
+app.use("/users", userRouter);
 
 module.exports = app;
