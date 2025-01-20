@@ -61,3 +61,4 @@ MERN: MongoDB, Express. js, React, and Node. js.
 This project demonstrates the integration of core software development principles, including CRUD operations, data management, and user interaction. The trading feature adds complexity by simulating a marketplace, making it a unique and engaging application. It combines creativity with technical skills, providing a comprehensive learning experience.
 
 RENDER: https://s62-jokes-market-jexl.onrender.com
+FRONTEND DEPLOYMENT: s62-jokes-market.pages.dev
