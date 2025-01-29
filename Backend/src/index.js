@@ -8,7 +8,7 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
   const app = require("./server.js");
   const connectDatabase = require("./DataBase/database.js");
   const { connectDB, getDB } = require("./DataBase/db.js");
-  const userRouter = require('./Routes/user.route.js')
+  const userRouter = require('./Routes/routes.js')
   
   const PORT = process.env.PORT;
   
